@@ -4,8 +4,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.html">
+    <link rel="stylesheet" href="nosotros.html">
     <link rel="stylesheet" href="postres.html">
-    <link rel="stylesheet" href="contacto.html">
     <!-- Icono de pagina -->
     <link rel="icon" type="image/x-icon" href="imagenes/logo.jpg">
     <!--bootstrap -->
@@ -18,40 +18,58 @@
 <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <!--stlyle de pagina-->
     <link rel="stylesheet" href="style.css">
-    <title>pasteleria bienmesabe</title>
+    <title>Pasteleria Bienmesabe</title>
 </head>
 <body>
     <header>
-    <!-- comienzo barra de navegacion-->
+        <!-- comienzo barra de navegacion-->
         <ul class="nav nav-item">
             <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link" aria-current="page" href="index.html">Inicio</a>
             </li>
-            <li class="nav-item dropdown">
-            <a class="nav-link" href="postres.html">Postres</a>
             <li class="nav-item">
-            <a class="nav-link"  href="contacto.html">Contacto</a>
-            </li>
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+                </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link" href="postres.html">Postres</a>
         </ul>
         <!--imagen principal-->
-        <div class="principal">
+            <div class="principal">
             <img src="imagenes/banner principal.webp" class="img-fluid"alt="imagen principal">
-        </div>    
+            </div>    
 </header>
+<!-- comienzo del main-->
 <main>
-    <h2 class="titulo"> Quiénes Somos: </h2>
-    <h3 class="quienes">
-<p>La Pastelería es un emprendimiento iniciado por Profesionales Gastronómicos,   </p> 
-<p>inspirado en una Pastelería Artesanal contemporánea, que en un principio se</p> <p>especializó únicamente en tortas, pero hoy, cuenta con una gran variedad de</p>
-<p>Minicakes, Brownies, Alfajores, Cup Cakes, Cake Pops, Petit fours y más. Su</p>
-<p>objetivo es ofrecer un producto de alta calidad, excelente presentación, pero con  el sabor de lo casero.</p>
-<p>No dejes de visitarnos, esperamos siempre sorprenderte.</p> 
-</h3>
-<div class="video">
-<iframe width="640" height="360" src="https://www.youtube.com/embed/wD-g_Gyn2I4" title="JaciCakes Video Publicitario - Publicidad Pastelería" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<a class="volver" href="index.html">volver a pagina principal</a>
-</main>
+    <h2 class="titlecontacto">Contacto</h2>
+        <div class="cont"> 
+        <form action="" method="post">
+            <div class="field">
+                <label for="name" class="label">
+                    Nombre:
+                </label>
+                <input type="text" name="name" id="name" class="input" autofocus>
+            </div>
+            <div class="field">
+                <label for="email" class="label">
+                    Email:
+                </label>
+                <input type="email" name="email" id="email" class="input">
+            </div>
+            <div class="field">
+                <label for="message" class="label">
+                    Mensaje:
+                </label>
+                <textarea name="message" id="message" rows="5" cols="25" class="textarea"></textarea>
+            </div>
+            <div class="botoncaja">
+            <button type="submit" class="boton">Enviar</button>
+        </div>
+        </form>
+        <div class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.2097065434004!2d-58.53180558477122!3d-34.57355998046729!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb70cee6c0021%3A0xea749a3f814f727b!2sEstrada%202966%2C%20Villa%20Maip%C3%BA%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1668985305265!5m2!1ses-419!2sar" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+    </main>
 <!-- comienzo del footer-->
 <a id="pie"></a>
 <footer class="footer-section">
